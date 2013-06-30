@@ -30,6 +30,7 @@ import java.util.List;
  */
 
 // TODO Подумать над возможностью разбиения функционала получения результата и функционала задания параметров поиска
+// TODO Разбить класс на 2 сущности: одна должна хранить состояние объекта объекта запроса, вторая должна отвечать за выполнение запросов
 public class CeCriteria implements ICeCriteria {
 
     private static final LoggerUtils.MyLogger logger = LoggerUtils.getLogger(CeCriteria.class);
